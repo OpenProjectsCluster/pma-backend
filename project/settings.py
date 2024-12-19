@@ -13,6 +13,7 @@ CORS_ALLOWED_ORIGINS = [f"http://localhost:{os.getenv("FRONTEND_PORT")}"]
 
 FIRST_PARTY_APPS = [
     "user.apps.UserConfig",
+    "image.apps.ImageConfig",
 ]
 
 THIRD_PARTY_APPS = [
